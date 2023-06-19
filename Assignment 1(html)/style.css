@@ -1,0 +1,72 @@
+body{
+    margin: 0; /* margin is removed */
+}
+
+.box{ /* here  box styling is done  */
+  background-image: url("poster.jpg"); /* background image is added */
+    background-size: contain; /* Scale the background image to fit the container*/
+    background-position: center; /* background position is in center*/
+    background-repeat: no-repeat; /* it is used for preventing the repeating of image*/
+    min-height: 100vh; /* for minimum height of the box */
+    display:flex; /* for layout, flex  is used*/
+    align-items:center; /* align item is  vertically  in center*/
+    justify-content:center; /* align item is horizontally in center */
+    
+}
+body>p{ /* paragraph styling*/
+  position:absolute; /* it is used for setting the position of paragraph*/
+  bottom: 125px; /* Distance from the bottom of the parent container */
+  margin-left:570px; /* Distance from the left of the parent container */
+  text-align: center; /* center align of the text*/
+  display: flex; /* for layout, flex box is used*/
+  padding: 0; /* for removing any padding */
+  color: azure; /*  set the  color of text*/
+  font-size: small; /*  set the size of text*/
+ font-family: 'Kanit', sans-serif; /* set the font of text*/
+  
+}
+
+  body>h1{ /* styling of h1*/
+    text-align:center; /*  Center align  of the text */
+     color: rgb(241, 241, 213); /*  set the  color of text*/
+    position:absolute; /* it is used for setting the position of heading */
+    left:50%; /* for setting the postion*/
+    top:70%; /* for setting the postion*/
+    bottom: -60px; /* distance from the bottom of the parent container */
+    font-size: 700%; /*  set the size of text*/
+    font-weight: 10000px; /* set the weight of text*/
+    transform: translate(-50%,-50%); /* Center the heading both horizontally and vertically */
+   font-family: 'IBM Plex Sans Condensed', sans-serif;/* set the font of text*/
+     } 
+
+     body > h1 > a{
+      text-decoration: none; /* for removing text decoration*/
+      color:rgb(241, 241, 213); /* set the color of text*/
+     }
+
+     body>p+p{ /* styling of second paragraph*/
+
+      position: absolute;  /* it is used for setting the position of paragraph */
+      bottom: 20px; /* Distance from the bottom of the parent container */
+      margin-left: 400px;  /* Distance from the left of the parent container */
+      text-align: center; /* Center align the text */
+      display: flex;  /* for layout, flex  is used*/
+      padding: 0; /* for removing any padding */
+      color:azure; /*  set the  color of text*/
+      font-size: small; /*  set the size of text*/
+      font-family: 'Kanit', sans-serif; /* set the font of text*/
+     }
+
+      body>p+p+p{ /* styling of third paragraph*/
+
+      position: absolue; /* it is used for setting the position of paragraph */
+      bottom: 5px; /* Distance from the bottom of the parent container */
+      margin-left: 350px; /* Distance from the left of the parent container */
+      text-align: center; /* Center align the text */
+      display: flex; /* for layout, flex  is used*/
+      padding:0; /* for removing any padding */
+      color: azure; /*  set the  color of text*/
+      font-size:small; /*  set the size of text*/
+      font-family: 'Kanit', sans-serif; /* set the font of text*/
+     }
+     
